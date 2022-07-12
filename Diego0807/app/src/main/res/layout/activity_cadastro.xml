@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C5B91"
+    tools:context=".cadastro">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="111dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/gasolina2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="122dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/casa"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="129dp"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/mapa2"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="46dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/pontos"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:text="Email : Digeocosta@gmail.com" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cep :  69399-999"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Adicionar novo CEP :   "
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="182dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/icone"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome: Diego costa"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
